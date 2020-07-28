@@ -1,0 +1,100 @@
+/* MASTER STYLESHEE-----------
+
+template name: Psd project || HTML template;
+Author: Md. atiqur rahman Badhon;
+author url: https://onlynurnobi.com;
+version:1,0,0;
+Description:
+tag:blog  two collumn;
+
+*/
+
+
+/*TABLE OF CONTENTS--------
+
+1. 	typography
+2.
+3.
+4
+
+
+*/
+
+/*TYPOGRAPHY--------*/
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400&family=Ubuntu:wght@300&display=swap');
+font-family: 'Inconsolata', monospace;
+font-family: 'Playfair Display', serif;
+
+font-family:  Ubuntu sans-serif;
+body{
+	margin:0px;
+	padding:0px;
+
+
+}
+.cont,section{
+margin:70px;
+color:#626262;
+}
+.head,.pic {
+display: flex;
+justify-content: space-between;
+
+align-items: center;
+
+
+
+}
+li{
+list-style: none;
+display: inline;
+
+}
+.head ul li a{
+font-family: 'Playfair Display', serif;
+color:#626262;
+text-decoration: none;
+margin: 20px 0px 20px 50px;
+
+}
+.head ul li a:hover{
+	color:tomato;
+	transition: .5s;
+}
+img{
+height: 23px;
+}
+.banner{
+	background-image: url(../image/minimo-min.jpg);
+	background-position:center;
+	background-repeat: no-repeat;
+	height: 510px;
+	background-size: cover;
+	}
+.part1{
+margin: 80px;
+
+}
+h1,p{
+	
+	font-family:'Playfair Display', serif;
+	font-weight: 400;
+	font-size: 37px; 
+	margin-left: 0px;
+}
+h3{
+	font-family: Ubuntu ;
+	font-weight: 300;
+	color: #b4ad9e;
+	margin: 0px;
+	padding: 0px;
+}
+p{
+	font-size: 16px;
+	padding:0px 0px 30px 0px;
+	margin: 0px;
+}
+
+
+
+/*common style.........*/
